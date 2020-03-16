@@ -16,22 +16,32 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * ========================================================= */
+.treeview {
+    font-size:0.8em;
+}
 
 .treeview .list-group-item {
-	cursor: pointer;
+    cursor: pointer
 }
 
 .treeview span.indent {
-	margin-left: 10px;
-	margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px
 }
 
 .treeview span.icon {
-	width: 12px;
-	margin-right: 5px;
+    width: 12px;
+    margin-right: 5px
 }
 
 .treeview .node-disabled {
-	color: silver;
-	cursor: not-allowed;
+    color: silver;
+    cursor: not-allowed
+}
+
+.treeview .node-item-text {
+    white-space: nowrap;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
